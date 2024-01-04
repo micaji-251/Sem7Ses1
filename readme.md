@@ -12,7 +12,7 @@ Temas a tratar
 
 # Responsive Web Design
 
-Practicas o maneras en la que hacemos que la aplicación o pagina web se vuelva adaptable a los distintos viewport que hayan.
+Practicas o maneras en la que hacemos que la aplicación o pagina web se vuelva adaptable a los distintos dispositivos que hayan.
 
 ## Enfoques:
 
