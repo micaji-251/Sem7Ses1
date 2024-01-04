@@ -1,0 +1,28 @@
+footer{
+    .footer__grid{
+        padding: 30px 20px;
+        background-color: black;
+        display: flex;
+        justify-content: space-evenly;
+        color: whitesmoke;
+
+        .footer__item{
+            padding: 10px 0px;
+        }
+
+        .footer__list{
+            &__item{
+                color: whitesmoke;
+                font-size: 1rem;
+                padding: 5px 0;
+
+                &__title{
+                    font-size: 1.5rem;
+                    font-weight: 700;
+                    padding: 10px 0;
+                }
+            }
+        }
+
+    }
+}

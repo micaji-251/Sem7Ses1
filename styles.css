@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  text-decoration: none;
+  list-style: none;
+}
+
+footer .footer__grid {
+  padding: 30px 20px;
+  background-color: black;
+  display: flex;
+  justify-content: space-evenly;
+  color: whitesmoke;
+}
+footer .footer__grid .footer__item {
+  padding: 10px 0px;
+}
+footer .footer__grid .footer__list__item {
+  color: whitesmoke;
+  font-size: 1rem;
+  padding: 5px 0;
+}
+footer .footer__grid .footer__list__item__title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 10px 0;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 3rem;
+  color: black;
+}
+header .list {
+  display: flex;
+  background-color: black;
+  justify-content: space-evenly;
+  align-items: center;
+}
+header .list__items {
+  padding: 1rem;
+  color: white;
+}
+
+main section {
+  padding: 30px;
+}
+main section h2 {
+  font-size: 2rem;
+  padding: 1rem;
+  text-align: center;
+  color: black;
+  background-color: aliceblue;
+  border-radius: 15px;
+}
+main section p {
+  padding: 10px;
+}
+main section .ejemplo {
+  font-style: italic;
+}
+
+@media (max-width: 800px) {
+  header h1 {
+    color: gray;
+  }
+  header .list {
+    flex-direction: column;
+  }
+  header .list__items {
+    color: gray;
+  }
+  footer .footer__grid {
+    flex-direction: column;
+  }
+  footer .footer__grid .footer__list__item {
+    color: gray;
+  }
+  footer .footer__grid .footer__list__item__title {
+    color: gray;
+  }
+}/*# sourceMappingURL=styles.css.map */

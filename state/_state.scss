@@ -1,0 +1,38 @@
+@media (max-width:800px){
+
+    header{
+        h1{
+            color: gray;
+        }
+
+        .list{
+            flex-direction: column;
+            
+            &__items{
+                color: gray;
+            }
+        }
+    }
+
+    footer{
+        .footer__grid{
+            flex-direction: column;
+
+            .footer__item{
+            }
+    
+            .footer__list{
+                &__item{
+                    color: gray;
+
+    
+                    &__title{
+                        color: gray;
+                    }
+                }
+            }
+    
+        }
+    }
+
+}

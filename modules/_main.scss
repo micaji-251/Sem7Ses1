@@ -1,0 +1,22 @@
+main{
+    //AÑADIR PADDING ENTRE SECCIONES
+    
+    section{
+        padding: 30px;
+        h2{
+            font-size: 2rem;
+            padding: 1rem;
+            text-align: center;
+            color: black;
+            background-color: aliceblue;
+            border-radius: 15px;
+        }
+        p{
+            padding: 10px;
+
+        }
+        .ejemplo{
+            font-style: italic;
+        }
+    }
+}

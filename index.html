@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Responsive Web Design</h1>
+        <nav>
+            <ul class="list">
+                <li class="list__items"><a href="#" class="list__link"></a>Definicion</li>
+                <li class="list__items"><a href="#" class="list__link"></a>Principales Enfoques</li>
+                <li class="list__items"><a href="#" class="list__link"></a>Media Quearies</li>
+                <li class="list__items"><a href="#" class="list__link"></a>Componente Footer</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="definition">
+            <h2>Definicion</h2>
+            <p>Practicas o maneras en la que hacemos que la aplicación o pagina web se vuelva adaptable a los distintos viewport que hayan.</p>
+        </section>
+
+        <section class="enfoque">
+            <h2>Enfoques</h2>
+            <p>Desktop First: empezamos en una resolución de escritorio, para adaptarla a la versión mobile. Max-width</p>
+            <p>Mobile First: empezamos en una resolución de celular, al ser más pequeño permite un diseño más rápido. Min-width</p>
+        </section>
+
+        <section class="mediaqueries">
+            <h2>Media Queries</h2>
+            <p>limite de cambio para establecer distintos estilos para el mismo elemento</p>
+            <p class="ejemplo">@media(max-width:800px){.box{background-color: blue;}}</p>
+            <p class="ejemplo">@media(min-width:600px){.box{background-color: yellow;}}</p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer__grid">
+            <div class="footer__item">
+                <ul class="footer__list">
+                    <li class="footer__list__item footer__list__item__title">MDN</li>
+                    <li class="footer__list__item">About</li>
+                    <li class="footer__list__item">Blog</li>
+                </ul>
+            </div>
+            <div class="footer__item">
+                <ul class="footer__list">
+                    <li class="footer__list__item footer__list__item__title">Support</li>
+                    <li class="footer__list__item">Product help</li>
+                    <li class="footer__list__item">Report an issue</li>
+                </ul>
+            </div>
+            <div class="footer__item">
+                <ul class="footer__list">
+                    <li class="footer__list__item footer__list__item__title">Developers</li>
+                    <li class="footer__list__item">Web Technologies</li>
+                    <li class="footer__list__item">MDN Plus</li>
+                </ul>
+            </div>
+            <div class="footer__item">
+                <ul class="footer__list">
+                    <li class="footer__list__item footer__list__item__title">Our communities</li>
+                    <li class="footer__list__item">MDN Community</li>
+                    <li class="footer__list__item">MDN Forum</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
